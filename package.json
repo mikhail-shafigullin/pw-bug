@@ -1,0 +1,17 @@
+{
+  "name": "pw-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e:local": "playwright test",
+    "test:e2e:ci": "CI=1 playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.41.0",
+    "@types/node": "^20.11.5"
+  }
+}
